@@ -6,7 +6,6 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 import multiprocessing
-import os
 
 def initEvent(event, url):
     """Initializes these global paramaters for all processes in a pool

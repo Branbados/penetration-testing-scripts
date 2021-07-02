@@ -2,7 +2,6 @@
 https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-account-lock
 """
 
-from os import name
 import requests
 import sys
 from bs4 import BeautifulSoup
