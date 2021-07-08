@@ -5,7 +5,7 @@
 * [License](#License)
 
 # Introduction
-These are a collection of penetration testing scripts that are designed to leverage vulnerabilities on Portswigger websites found [here](https://portswigger.net/web-security/all-labs). Examples of these vulnerabilities include SQL injection, cross-site scripting, or CSRF. These vulnerabilities are leveraged to elevate priveleges and exfiltrate data.
+These are a collection of penetration testing scripts that are designed to leverage vulnerabilities on Portswigger websites found [here](https://portswigger.net/web-security/all-labs). Examples of these vulnerabilities include SQL injection, cross-site scripting, or CSRF. These vulnerabilities are leveraged to elevate privileges and exfiltrate data.
 
 # Technologies
 These scripts are written in Python. The requests package is used to create sessions on the vulnerable sites, and to send and receive HTML requests. The sites' HTML is parsed and searched using BeautifulSoup and re. Some scripts use multiprocessing or async to run concurrent brute-force attacks.
