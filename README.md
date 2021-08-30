@@ -13,7 +13,7 @@ These scripts are written in Python. The requests package is used to create sess
 # Installation
 The following command will install the project.
 ```
-git clone https://github.com/Branbados/irc-application.git
+git clone https://github.com/brandonaltermatt/penetration-testing-scripts/
 ```
 You will need a PortSwigger account to access the labs. You can make one [here](https://portswigger.net/users/register).  
 With an account, you must go to the selected lab page and generate the lab website. The lab page corresponding to the script can be found in a comment at the top of the script.  
